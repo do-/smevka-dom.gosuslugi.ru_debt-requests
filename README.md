@@ -1,4 +1,4 @@
-# smevka-dom.gosuslugi.ru_debt-responses
+# smevka-dom.gosuslugi.ru_debt-requests
 Заглушка сервиса ГИС ЖКХ для отправки запросов о наличии задолженности за ЖКУ.
 
 В [РСМЭВ СПб](https://smev.spb.ru/registry/SMEV3/) этот сервис опубликован с RSID=30441.
