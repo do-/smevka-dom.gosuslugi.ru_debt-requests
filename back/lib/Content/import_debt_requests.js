@@ -1,3 +1,5 @@
+const path = require ('path')
+
 module.exports = {
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -7,6 +9,16 @@ get_rsid_of_import_debt_requests:
     function () {
 
 		return 30442
+    
+    },
+    
+////////////////////////////////////////////////////////////////////////////////
+
+get_xsd_path_of_import_debt_requests:
+
+    function () {
+
+		return path.join (__dirname, '..', 'Static/dom-gosuslugi-ru-smev3-debt-requests.xsd')
     
     },
 
