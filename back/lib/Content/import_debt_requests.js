@@ -11,7 +11,17 @@ get_xsd_path_of_import_debt_requests:
 		return path.join (__dirname, '..', 'Static/dom-gosuslugi-ru-smev3-debt-requests.xsd')
     
     },
+    
+////////////////////////////////////////////////////////////////////////////////
 
+get_request_of_import_debt_requests:
+
+    function () {
+
+		return this.rq.data
+    	
+    },
+    
 ////////////////////////////////////////////////////////////////////////////////
 
 get_response_of_import_debt_requests:
